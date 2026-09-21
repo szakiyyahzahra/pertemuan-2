@@ -1,110 +1,160 @@
 <!DOCTYPE html>
 <html lang="id">
+
 <head>
-<title>website zahra ✿</title>
+    <title>Website Zahra ✿</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Karla:wght@400;500;600;700&display=swap" rel="stylesheet">
 </head>
+
 <body>
-    <h1>My Projects</h1>
 
-    <nav>
-    <a href="index.html">Home</a> |
-    <a href="About.html">About</a> |
-    <a href="Project.html">Project</a> |
-    <a href="Contact.html">Contact</a> |
-    <a href="SocialMedia.html">Social Media</a>
-</nav>
+    <header id="header">
 
-    <hr>
+        <h1>My Projects</h1>
 
-    <h2>Daftar Project</h2>
+        <h5>Beberapa project yang pernah saya kerjakan</h5>
 
-    <p>
-        Berikut adalah beberapa project sederhana yang pernah atau sedang saya kerjakan.
-    </p>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="About.html">About</a>
+            <a href="Project.html">Project</a>
+            <a href="Contact.html">Contact</a>
+            <a href="SocialMedia.html">Social Media</a>
+        </nav>
 
-    <img src="kreswara.jpg.jpeg"
-         alt="Ilustrasi project"
-         width="300">
+    </header>
 
-    <h3>Project 1: Sistem Westra DBD (Dimas Bhanu Dangerous) </h3>
 
-    <p> E-commerse produk oleh-oleh umkm, pada tugas mata kuliah analisis pembelajaran sistem informasi.</p>
+    <main class="container project-container">
 
-    <h3>Project 2: Game Kreswara Echoes Of Lost Soul</h3>
+        <h2>Daftar Project</h2>
 
-    <p> Game Coding Pyton pemula dengan konsep fiksi nusantara
-        
-    </p>
+        <p class="project-intro">
+            Berikut adalah beberapa project sederhana yang pernah atau sedang saya kerjakan.
+        </p>
 
-    <h3>Project 3: Website Portofolio Sederhana</h3>
 
-    <p>
-        Project latihan membuat web html.
-    </p>
+        <div class="project-image">
+            <img src="kreswara.jpg.jpeg" alt="Ilustrasi project">
+        </div>
 
-    <h2>Teknologi yang Digunakan</h2>
 
-    <ul>
-        <li>HTML</li>
-        <li>Python</li>
-        <li>MS Word</li>
-        <li>Vscode</li>
-    </ul>
+        <div class="project-list">
 
-    <h2>Ringkasan Project</h2>
+            <div class="project-card">
+                <h3>Project 1: Sistem Westra DBD (Dimas Bhanu Dangerous)</h3>
+                <p>
+                    E-commerce produk oleh-oleh UMKM, pada tugas mata kuliah
+                    analisis pembelajaran sistem informasi.
+                </p>
+            </div>
 
-    <table border="1">
-        <thead>
-            <tr>
-                <th colspan="4">Ringkasan Portofolio Project</th>
-            </tr>
 
-            <tr>
-                <th rowspan="2">No.</th>
-                <th rowspan="2">Nama Project</th>
-                <th colspan="2">Detail Project</th>
-            </tr>
+            <div class="project-card blue-card">
+                <h3>Project 2: Game Kreswara Echoes Of Lost Soul</h3>
+                <p>
+                    Game coding Python pemula dengan konsep fiksi Nusantara.
+                </p>
+            </div>
 
-            <tr>
-                <th>Teknologi</th>
-                <th>Status</th>
-            </tr>
-        </thead>
 
-        <tbody>
-            <tr>
-                <td>1</td>
-                <td>System E-commerse UMKM DBD</td>
-                <td>MS Word, VScode</td>
-                <td rowspan="2">Selesai</td>
-            </tr>
+            <div class="project-card">
+                <h3>Project 3: Website Portofolio Sederhana</h3>
+                <p>
+                    Project latihan membuat website menggunakan HTML.
+                </p>
+            </div>
 
-            <tr>
-                <td>2</td>
-                <td>Project Game Kreswara</td>
-                <td>MS Word, Vscode,Pyton</td>
-            </tr>
+        </div>
 
-            <tr>
-                <td>3</td>
-                <td> Web Portofolio Sederhana</td>
-                <td>VScode</td>
-                <td>Dalam Pengembangan</td>
-            </tr>
-        </tbody>
-    </table>
 
-    <hr>
+        <h2>Teknologi yang Digunakan</h2>
 
-    <p>
-        <em>
-            Tertarik berdiskusi?
-            <a href="contact.html">Hubungi saya</a>
-        </em>
-    </p>
+        <ul class="technology-list">
 
-    <p>&copy; Siti Zakiyyah Zahra</p>
+            <li>HTML</li>
+            <li>Python</li>
+            <li>Microsoft Word</li>
+            <li>VScode</li>
+
+        </ul>
+
+
+        <h2>Ringkasan Project</h2>
+
+        <div class="table-wrapper">
+
+            <table class="project-table">
+
+                <thead>
+
+                    <tr>
+                        <th colspan="4">Ringkasan Portofolio Project</th>
+                    </tr>
+
+                    <tr>
+                        <th rowspan="2">No.</th>
+                        <th rowspan="2">Nama Project</th>
+                        <th colspan="2">Detail Project</th>
+                    </tr>
+
+                    <tr>
+                        <th>Teknologi</th>
+                        <th>Status</th>
+                    </tr>
+
+                </thead>
+
+
+                <tbody>
+
+                    <tr>
+                        <td>1</td>
+                        <td>System E-commerce UMKM DBD</td>
+                        <td>Microsoft Word, VScode</td>
+                        <td rowspan="2">Selesai</td>
+                    </tr>
+
+                    <tr>
+                        <td>2</td>
+                        <td>Project Game Kreswara</td>
+                        <td>Microsoft Word, VScode, Python</td>
+                    </tr>
+
+                    <tr>
+                        <td>3</td>
+                        <td>Web Portofolio Sederhana</td>
+                        <td>VScode</td>
+                        <td>Dalam Pengembangan</td>
+                    </tr>
+
+                </tbody>
+
+            </table>
+
+        </div>
+
+        <hr>
+
+        <p class="project-contact">
+            <em>
+                Tertarik berdiskusi?
+                <a href="Contact.html">Hubungi saya</a>
+            </em>
+        </p>
+
+    </main>
+
+
+    <footer>
+        <p>&copy; 2026 Siti Zakiyyah Zahra.</p>
+    </footer>
 
 </body>
-
 </html>
