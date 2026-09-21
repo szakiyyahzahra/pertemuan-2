@@ -26,9 +26,10 @@ informasi kontak, serta media sosial.
 - Formulir kontak
 - Link media sosial
 
-## Identitas
+## Author
 **Nama:** Siti Zakiyyah Zahra  
-**Program Studi:** Pendidikan Sistem dan Teknologi Informasi (PSTI)
+**NIM:** 2502596
+**Program Studi:** Pendidikan Sistem dan Teknologi Informasi
 
 ## Tujuan
 Website ini dibuat untuk memenuhi tugas Pemrograman Internet sekaligus
